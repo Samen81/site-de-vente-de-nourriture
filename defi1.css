@@ -1,0 +1,160 @@
+.contenu
+{
+ margin:20px;
+ font-family:'Playfair Display';
+}
+.header
+{
+	position: relative;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 600px;
+
+	
+}
+.header_navbar
+{
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 20px;
+	border-bottom: 2px solid black;
+}
+.header_navbar_logo_title
+{
+
+	font-family:Gavabon;
+	size: 72;
+}
+
+.header_navbar_menu_link
+{
+	margin-left: 20px;
+	text-decoration:none;
+	color: black;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: 'Playfair Display';
+}
+
+.sous_menu
+{
+ display: none;
+
+}
+.header_body
+{
+	position: absolute;
+	width: 100%;
+	height:500px;
+ background: url(domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+ background-size: cover;
+
+}
+.header_body_contain
+{
+	float:left;
+	text-align:left;
+	left:0;
+	top: 0;
+	margin-top: 25%;
+	margin-left:50px;
+}
+.header_body_contain_title
+{
+	font-size: 40px;
+	color:blue;
+}
+.button
+{
+	background-color: skyblue;
+	color: white;
+	text-decoration: none;
+
+}
+.sous
+{
+	font-size: 15px;
+}
+.entete
+{
+	text-align: center;
+}
+.body
+{
+	height: 400px;
+}
+.body_article
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.body_article_first
+{
+	width: 300px;
+	height: 250px;
+	border-bottom: 3px solid black;
+	border-top:3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+
+}
+.article
+{
+	width: 300px;
+	height:50px;
+	border-bottom: 1px solid white;
+}
+.debut
+{
+	text-align: center;
+	color: white;
+}
+.footer
+{
+	background-color: skyblue;
+	height: 300px;
+}
+.footer_article
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	position: relative;
+
+}
+.f_article
+{
+	background-color: red;
+	height: 100px;
+	width: 150px;
+
+}
+.end
+{
+	text-align: right;
+
+}
+@media screen and (max-width: 951px)
+{
+	.contenu
+	{
+		width:100%;
+		overflow:hidden  ;
+	}
+	.footer_article,.body_article
+	{
+		display: block;
+		width:100%;
+	}
+
+}
+@media screen and (max-width: 856px)
+{
+ 
+}
